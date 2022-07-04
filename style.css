@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-   /* font-family: ;*/
+    font-family: 'Splash', cursive;
 }
 
 body{
@@ -69,14 +69,14 @@ li:hover {
 
 }
 a {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     text-decoration: none;
     list-style: none;
-    color: #fff;
+    color: black;
 }
 a:hover {
-    color: darkred;
+    color: rgb(235, 231, 6);
 }
 
 div.contenido {
@@ -103,12 +103,13 @@ div.contenido {
 h1.titulos {
     margin-bottom: 1.5em;
     font-size: 4em;
-    color: darkmagenta;
+    color: rgb(248, 19, 248);
     height: 2%;
     width: 100%;
 }
 p {
     font-size: 1.5em;
+    color: rgb(235, 0, 176);
 }
 footer {
     height: 2%;
