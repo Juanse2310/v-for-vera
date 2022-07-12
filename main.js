@@ -1,5 +1,5 @@
 alert("bienvenidos a la casa de tatuajes");
-
+/*
 function calcuPresupuesto(){
     let altura = prompt("ingrese la altura del tatuaje ( en CM) ");
     let ancho = prompt("ingrese el ancho del tatuaje ( en CM) ");
