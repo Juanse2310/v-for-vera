@@ -1,4 +1,24 @@
-alert("bienvenidos a la casa de tatuajes");
+let usuario;
+let usuarioStorage = sessionStorage.getItem("usuario");
+
+if(usuarioStorage){
+  console.log("hola " + usuarioStorage);
+}else{
+  usuario = prompt("Como te llamas?");
+  sessionStorage.setItem("usuario" , usuario);
+  //alert("Hola " + bienvenida +"!!");
+  }
+
+  let saludito = document.getElementById("saludoUsuario");
+  saludito.innerHTML = "";
+  let nuevoContenido = document.createElement("div");
+  nuevoContenido.innerHTML = "Como estas " + usuarioStorage + "??";
+  nuevoContenido.className = "saludoBienvenida";
+  saludito.appendChild(nuevoContenido);
+
+
+
+//alert("bienvenidos a la casa de tatuajes");
 /*
 function calcuPresupuesto(){
     let altura = prompt("ingrese la altura del tatuaje ( en CM) ");
@@ -45,4 +65,4 @@ while (opcion !== "4") {
             this.color = this.color;
         }
     }
-    
+    */

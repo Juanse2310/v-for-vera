@@ -7,4 +7,7 @@ boton.onclick = () => {
     let colo3 = parseInt(colorr.options[colorr.selectedIndex].value);
     let suma = `total $ ${((anch1 * altu2) * colo3)}`;
     document.getElementById("resultado").value = suma;
+    sessionStorage.setItem("Presupuesto Final" , suma);
+    sessionStorage.ANCHO = anch1;
+    sessionStorage.ALTURA = altu2;
 };

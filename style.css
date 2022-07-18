@@ -14,6 +14,7 @@ align-items: center;
 position: fixed;
 justify-content: space-around;
 flex-shrink: 1;
+background-color: black;
 
 }
 header { 
@@ -83,7 +84,7 @@ a:hover {
 div.contenido {
     border-bottom: 9px solid black;
     border-top: 9px solid black;
-    background-color: transparent;
+    background-color: black;
     flex: auto;
     flex-wrap: wrap;
     height: 100%;
@@ -125,4 +126,24 @@ h3 {
     color: rgb(255, 81, 0);
     height: 2%; 
     width: 100%;
+}
+.customer{
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    color: rgb(255, 81, 0);
+    height: 1%;
+    width: 100%;
+    flex: auto;
+    background-color: black;
+     
+}
+.saludoBienvenida{
+    margin-bottom: 1.5em;
+    font-size: 1.0em;
+    color: rgb(255, 81, 0);
+    height: 1%;
+    width: 100%;
+    flex: auto;
+    background-color: black;
+     
 }
